@@ -1,0 +1,35 @@
+How this book is organized
+==========================
+
+- Part 1: Logging into the shell
+  - Commands: bash, login, ssh
+  - Connecting to a remote shell.  
+- Part 2: Navigating the File System
+  - Commands: pwd, cd, ls, mkdir, rmdir, find
+  - Parts of a path (root, system directory)
+  - Searching for files
+  - File permissions
+- Part 3: Text Editing
+  - Commands: echo, cat, less, nano, grep, touch, joe, shell functions
+  - Naming files and directories
+  - Editing files
+- Part 4: Secure remote access
+  - Commands: ssh, ssh-keygen, ssh-copy-id, ssh-add, ssh-agent
+  - Files: $HOME/.ssh/authorized_keys
+  - Using Secure Shell (SSH)
+  - Generating keys, copying keys, adding keys to ssh-agent 
+- Part 5: Package Installation and Management
+  - Commands: apt, yum, /ports
+  - Packages and package management
+- Part 6: Network services
+  - Commands: systemctl
+  - Enabling, starting, and stopping network services
+  - Verifying connectivity. 
+- Part 7: Looking at logs
+  - Commands: journalctl, less
+  - Viewing logs with journalctl 
+  - Viewing raw logs in /var/log/messages
+- Part 8: Firewalls, firewall maintenance, and security
+  - Commands: iptables, ufw
+  - Listing, adding, and removing firewall rules
+  - Viewing firewall logs
