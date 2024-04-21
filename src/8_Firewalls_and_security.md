@@ -85,6 +85,7 @@ Maintain comprehensive documentation of firewall configurations and policies. Tr
 This guide provides a detailed overview of Linux firewall management, emphasizing the importance of comprehensive understanding, regular maintenance, and strategic troubleshooting. As security threats evolve, so too should the strategies and tools used to combat them in the Linux environment.
 
 ### Exercises for `iptables` (Network Packet Filter)
+
 **Exercise 1: Listing Current iptables Rules**
 **Objective:** Learn to display all current iptables rules.
 **Steps:**
@@ -107,6 +108,7 @@ This guide provides a detailed overview of Linux firewall management, emphasizin
 2. Verify the rule by listing the iptables rules.
 
 ### Exercises for `ufw` (Uncomplicated Firewall)
+
 **Exercise 1: Enabling and Checking Status**
 **Objective:** Enable ufw and check its status.
 **Steps:**
@@ -130,6 +132,7 @@ This guide provides a detailed overview of Linux firewall management, emphasizin
 2. Verify the rule by checking the firewall status.
 
 ### Exercises for `SELinux` (Security-Enhanced Linux)
+
 **Exercise 1: Checking SELinux Status**
 **Objective:** Determine the current mode of SELinux.
 **Steps:**
@@ -189,7 +192,7 @@ This guide provides a detailed overview of Linux firewall management, emphasizin
 1. After initialization, make a change to a file tracked by AIDE, like modifying `/etc/passwd`.
 2. Run `sudo aide --check` to see if
 
- AIDE detects the modification.
+AIDE detects the modification.
 
 **Exercise 3: Updating the AIDE Database**
 **Objective:** Update the AIDE database after making authorized changes.
