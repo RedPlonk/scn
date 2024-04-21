@@ -190,9 +190,7 @@ This guide provides a detailed overview of Linux firewall management, emphasizin
 **Steps:**
 
 1. After initialization, make a change to a file tracked by AIDE, like modifying `/etc/passwd`.
-2. Run `sudo aide --check` to see if
-
-AIDE detects the modification.
+2. Run `sudo aide --check` to see if AIDE detects the modification.
 
 **Exercise 3: Updating the AIDE Database**
 **Objective:** Update the AIDE database after making authorized changes.
