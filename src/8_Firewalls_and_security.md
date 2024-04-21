@@ -12,6 +12,7 @@ Linux firewall management is a critical aspect of system security, involving the
 
 #### iptables
 
+
 **iptables** is a widely used firewall tool that provides powerful options for managing network traffic in Linux. It works by defining rules that allow or block traffic based on IP address, port number, protocol, and other criteria.
 
 **Basic Commands**:
@@ -40,6 +41,7 @@ Linux firewall management is a critical aspect of system security, involving the
 - **AppArmor**: Provides application security through profiles that restrict program capabilities.
 
 **Basic Usage**:
+
 - Checking status: `sestatus` for SELinux and `aa-status` for AppArmor.
 - Managing policies: Modify SELinux policies via `audit2allow` and AppArmor profiles via `aa-complain` or `aa-enforce`.
 
