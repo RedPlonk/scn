@@ -91,11 +91,13 @@ Linux file permissions determine who can read, write, and execute files and dire
 ### Basics of File Permissions
 
 Each file or directory has associated permissions that dictate how it can be accessed and by whom. These permissions include:
+
 - **Read (r):** Allows the content of the file to be read.
 - **Write (w):** Permits the modification or deletion of the file.
 - **Execute (x):** For files, it allows running the file as a program. For directories, it permits accessing files within the directory.
 
 Permissions are set for three different categories of users:
+
 - **Owner:** The user who created the file or directory.
 - **Group:** Users who are part of a group that is assigned to the file.
 - **Others:** All other users on the system.
@@ -103,16 +105,19 @@ Permissions are set for three different categories of users:
 ### Permissions in Octal Format (Numeric)
 
 Permissions in Linux can be viewed and modified using both symbolic (character) and numeric (octal) formats. The octal format is a three-digit number, with each digit representing a different category of users:
+
 - The first digit represents permissions for the **owner**.
 - The second digit is for the **group**.
 - The third digit stands for **others**.
 
 Each digit is a sum of:
+
 - 4 for read (r),
 - 2 for write (w),
 - 1 for execute (x).
 
 For example:
+
 - **644** (`rw-r--r--`): Read and write for the owner, and read-only for group and others.
 - **755** (`rwxr-xr-x`): Read, write, and execute for the owner; read and execute for group and others.
 
@@ -127,11 +132,14 @@ In symbolic notation, permissions are represented by a string of characters, for
 ### Changing Permissions with `chmod`
 
 The `chmod` command is used to change the file permissions. Here's how you can use it:
+
 - **Using Octal Notation:** To set the permissions of a file named `example.txt` to `rw-r--r--` (644):
+
   ```bash
   chmod 644 example.txt
   ```
 - **Using Symbolic Notation:** To add execute permission for the owner:
+
   ```bash
   chmod u+x example.txt
   ```
@@ -141,14 +149,17 @@ The `chmod` command is used to change the file permissions. Here's how you can u
 Here are some practical examples:
 
 1. **Setting a file to be writable and readable by the group:**
+
    ```bash
    chmod g+rw filename
    ```
 2. **Removing execute permissions for others:**
+
    ```bash
    chmod o-x filename
    ```
 3. **Setting directory permissions to 755:**
+
    ```bash
    chmod 755 directoryname
    ```
