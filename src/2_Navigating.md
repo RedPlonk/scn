@@ -253,7 +253,6 @@ This path illustrates the hierarchical structure of directories in Linux, showin
 **Exercise 2: Combine Output from Multiple Commands into One File**
 - **Objective**: Use the `echo` command to write multiple statements into a file using append redirection.
 - **Commands to use**:
-
   ```bash
   echo "Starting the process:" >> process.txt
   date >> process.txt
