@@ -1,3 +1,3 @@
-# scn
-Seattle Community Network
+# Seattle Community Network
+
 Copyright © Matthew J. Harmon. All rights reserved. 
