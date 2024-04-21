@@ -30,6 +30,7 @@ The shell is an essential tool for managing the Linux environment. It allows use
 ### Common Commands for File and Directory Management
 
 Understanding how to manipulate the file system using the shell is vital:
+
 - **Copying and Moving Files**
   - `cp`: Copy files or directories
   - `mv`: Move or rename files or directories
@@ -44,6 +45,7 @@ These commands form the backbone of file and directory management in Linux, prov
 ### Best Practices for Naming
 
 When naming files and directories in Linux, it is important to follow best practices to avoid confusion and potential conflicts:
+
 - **Use Descriptive Names:** Choose names that clearly indicate the contents or purpose of the file or directory.
 - **Avoid Special Characters:** Except for the dot (.), dash (-), and underscore (_), avoid using special characters in file names. Special characters might be interpreted by the shell or other programs.
 
