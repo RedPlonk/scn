@@ -148,7 +148,6 @@ This configuration:
 3. If connected successfully, execute a simple command like `ls` or `pwd` to ensure the connection is working.
 
 **Exercise 2:** Running a Command on a Remote Server
-
 1. Without logging into the server's interactive shell, run a command remotely: `ssh username@hostname pwd`.
 2. This command should output the current working directory on the remote server.
 

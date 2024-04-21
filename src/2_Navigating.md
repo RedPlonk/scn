@@ -20,6 +20,7 @@ In Linux, the root directory is denoted by a slash (`/`). It is the very base of
 ### System Directories
 
 Below the root directory, Linux features several important system directories, each serving a specific function:
+
    - `/bin` - Contains essential binary executables.
    - `/etc` - Hosts configuration files for the system.
    - `/home` - Contains the home directories of all users except the root user.
@@ -79,8 +80,6 @@ Let's look at some practical examples to better understand the usage of `find` a
    ```bash
    locate invoice | grep '.pdf$'
    ```
-
-Next, I will cover the essential topic of understanding file permissions in Linux, explaining both the octal and character formats, and how to manipulate these permissions. This section will also include practical examples to solidify the concepts. Let's continue.
 
 Continuing with our exploration of Linux, we now delve into one of its fundamental aspects: file permissions. Understanding and managing these permissions is crucial for securing your system and controlling access to files and directories.
 
