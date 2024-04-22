@@ -50,29 +50,19 @@ All participants will have access to:
 - Access to a virtual lab environment for hands-on practice
 - Community forums for discussion and troubleshooting
 
-### Instructors and Community Support
-
-Our course instructors come from a diverse background in IT and are experienced Linux users and enthusiasts. They are committed to providing a supportive learning environment and will be available to answer questions, guide experiments, and provide insights from their professional experiences.
-
-Moreover, by joining this course, you will be part of the Seattle Community Network, a local community-driven initiative that promotes the use of free and open-source software. It’s a great place to network, share ideas, and find collaborators on future projects.
-
-Whether you're aiming to enhance your current career or embark on a new one, learning Linux can provide you with a solid foundation in a technology that continues to shape the digital world. We look forward to guiding you through this journey and watching you grow into competent Linux users who can leverage the power of an open-source environment to its fullest potential. Join us to begin your exploration of Linux with the Seattle Community Network!
-
-Let's Get Started!
-------------------
+### Let's Get Started!
 
 That covers all the preliminary information you need to know. You’re now ready to get started with Chapter 1, where you’ll learn how to interact with the Linux shell "bash" and learn why everything in Linux is a file.
 
-Some typographical notations
---------------------------------------
+Let's discuss some typographical notations:
 
-| Notation                      | Description                                                        |
-|-------------------------------|--------------------------------------------------------------------|
-| **bold text**                 | User input, commands, options, areguments, variables, and names of directories.  |
-| *italic text*                 | Names of variables which are to be assigned (e.g. *password*)      |
-| `constant width`              | Linux command output, prompt signs and output from commands                 |
-| < >                           | Input that won't apepar on the screen when pressed. For example, `<ENTER>`   |
-| <Ctrl-?>                      | Hold the control key while pressing another key. |
-| [ ]                           | Variabls are optional |
-| `|`                           | Logical or, for example `[ arg1 | arg2 ]` would represent choose arg1 or arg2 |
+| Notation          | Description |
+|-------------------|-------------|
+| **bold text**     | User input, commands, options, arguments, variables, and names of directories. |
+| *italic text*     | Names of variables which are to be assigned (e.g., *password*). |
+| `constant width`  | Linux command output, prompt signs, and output from commands. |
+| `< >`             | Input that won't appear on the screen when pressed. For example, `<ENTER>`. |
+| `<Ctrl-?>`        | Hold the control key while pressing another key. |
+| `[ ]`             | Variables are optional. |
+| `|`               | Logical or, for example `[ arg1 | arg2 ]` would represent choose arg1 or arg2. |
 

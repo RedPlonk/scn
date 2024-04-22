@@ -14,7 +14,7 @@ METADATA_ARGS = --metadata-file $(METADATA)
 IMAGES = $(shell find images -type f)
 TEMPLATES = $(shell find templates/ -type f)
 COVER_IMAGE = images/jurassic-park-its-a-unix-system-t-shirt.jpg
-MATH_FORMULAS = --webtex
+# MATH_FORMULAS = --webtex
 
 # Chapters content
 CONTENT = awk 'FNR==1 && NR!=1 {print "\n\n"}{print}' $(CHAPTERS)
@@ -40,7 +40,14 @@ PANDOC_COMMAND = pandoc
 DOCX_ARGS = --standalone --reference-doc templates/docx.docx
 EPUB_ARGS = --template templates/epub.html --epub-cover-image $(COVER_IMAGE)
 HTML_ARGS = --template templates/html.html --standalone --to html5
-PDF_ARGS = --template templates/pdf.latex -f commonmark --pdf-engine xelatex -V titlepage:true -V book:true
+PDF_ARGS = --template templates/pdf.latex -f gfm --pdf-engine xelatex -V titlepage:true -V book:true
+#PDF_ARGS = --template templates/pdf.latex -f commonmark --pdf-engine pdflatex -V titlepage:true -V book:true
+# markdown
+# markdown_github
+# markdown_mmd
+# markdown_phpextra
+# markdown_strict
+
 
 # Per-format file dependencies
 
@@ -56,11 +63,11 @@ OS = $(shell sh -c 'uname -s 2>/dev/null || echo Unknown')
 
 # OS specific commands
 
-#ifeq ($(OS),Darwin) # Mac OS X
-#	COPY_CMD = cp -P
-#else # Linux
-#	COPY_CMD = cp --parent
-#endif
+ifeq ($(OS),Darwin) # Mac OS X
+	COPY_CMD = cp -P
+else # Linux
+	COPY_CMD = cp --parent
+endif
 
 MKDIR_CMD = mkdir -p
 RMDIR_CMD = rm -r
