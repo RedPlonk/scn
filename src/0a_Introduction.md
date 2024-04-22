@@ -65,4 +65,3 @@ Let's discuss some typographical notations:
 | `<Ctrl-?>`        | Hold the control key while pressing another key. |
 | `[ ]`             | Variables are optional. |
 | `|`               | Logical or, for example `[ arg1 | arg2 ]` would represent choose arg1 or arg2. |
-
