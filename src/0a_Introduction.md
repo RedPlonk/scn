@@ -64,4 +64,4 @@ Let's discuss some typographical notations:
 | `< >`             | Input that won't appear on the screen when pressed. For example, `<ENTER>`. |
 | `<Ctrl-?>`        | Hold the control key while pressing another key. |
 | `[ ]`             | Variables are optional. |
-| `|`               | Logical or, for example `[ arg1 | arg2 ]` would represent choose arg1 or arg2. |
+| `\|`               | Logical or, for example `[ arg1 \| arg2 ]` would represent choose arg1 or arg2. |
