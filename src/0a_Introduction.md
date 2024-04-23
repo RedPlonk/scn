@@ -1,45 +1,49 @@
-# Introduction to Linux Class - Seattle Community Network
+Introduction
+============
 
-Welcome to the "Introduction to Linux" class offered by the Seattle Community Network! This class is designed to be your gateway into the world of Linux, an operating system that powers everything from tiny embedded devices to the majority of the world's servers. Whether you're a beginner curious about alternative operating systems or an enthusiast looking to sharpen your tech skills, this course promises to be a valuable resource.
+Just as a city can’t operate without an infrastructure to provide electrical power, water, roads, government services, and other foundational resources, a computer requires a core program, called a *kernel*, that provides the basic services, and the supporting utilities together are known as the *operating system*.
 
-### Why Learn Linux?
+A kernel is a bit like an air traffic controller, in that it coordinates all the programs, and the operating system is the airport. 
 
-Linux is more than just another operating system. It's a symbol of collaboration and freedom in software development. Here are a few reasons why learning Linux can be beneficial:
+The five most widely-used operating systems in the world are Microsoft’s Windows and Apple’s MacOS for personal computers; Apple’s iOS and Google’s Android for smartphones and other smart devices; and Linux, which runs on an extraordinary range of devices, including supercomputers, web servers, personal computers, smartphones, and household appliances.
 
-- **Versatility and Flexibility:** Linux can be installed on a wide range of hardware, from old computers to the most modern systems, including laptops, desktops, servers, mobile devices, and even IoT devices.
-- **Career Opportunities:** Understanding Linux can open the door to numerous career paths in IT, including system administration, network security, and software development.
-- **Open Source Nature:** Linux is free and open source, meaning that you can view, modify, and distribute your modified versions of the code. This transparency is a learning opportunity in itself.
-- **Community Support:** Linux’s widespread usage and community support make it an excellent choice for those who want to dive deep into learning an OS. With millions of users and developers all over the world, finding help and resources is easier than with proprietary systems.
-- **Security and Stability:** Linux is known for its stability and security, making it the preferred choice for servers and critical systems.
+Unlike the other four operating systems, Linux isn’t proprietary; its code is publicly available (*open sourced*), free to all, and maintained and continually improved upon by a global community. The difference is similar to that of Wikipedia as compared to World Book or other branded encyclopedia. As a result, Linux is extremely customizable and adaptable; for example, it can run on almost any computer or smart device. It’s also exceptionally fast, stable, and secure, making it popular with a diverse range of groups ranging from corporations and government agencies to scientists and hobbyists.
 
-### Course Overview
+This Book is For You If...
+---------------------------
 
-This course is structured to help beginners navigate through the basics of Linux, from understanding its history and benefits to hands-on training with the operating system itself. No prior experience with Linux is required. Here’s what we’ll cover:
+This book will help you understand and use the Linux operating system, and show you ways to optimize your productivity on Linux.
 
-- Part 1: Logging into the shell
+This book assumes no prior knowledge, so you’ll be able to understand it even if you’ve never used Linux before. That said, this book also provides progressively advanced information and tips as it goes on, so it will continue to be of immense use to you as you evolve from a novice to an intermediate user and power user.
 
-- Part 2: Navigating the File System
+At the same time, if you’re already an experienced Linux user, this book will help you move to even higher levels of knowledge. It can even help you prepare for getting professionally certified as a Linux expert.
 
-- Part 3: Text Editing
+There are many reasons you might be interested in Linux. For example, this book is for you if...
 
-- Part 4: Secure remote access
+- The OS of the computer your employer assigned you is Linux
+- You’re a software engineer, DevOps engineer, or web developer who needs the numerous software tools that run on Linux
+- You’re a system administrator or network administrator seeking to leverage Linux’s stability, security, high degree of customization, and command line tools
+- You’re about to work with a technology that typically depends on Linux, such as supercomputers, cloud computing, web servers, or cybersecurity
+- You’re an embedded system developer who needs Linux’s ability to shrink to minimal size, work across a wide range of devices, and support (via patches such as RT-Preempt) the programming of highly time-dependent tasks
+- You’re a data scientist or scientific researcher seeking to benefit from Linux’s transparency and customizability; the many scientific tools (for data analysis, simulations, etc.) that run on Linux; and the command line interface that can run scripts to automate tasks
+- You’re a student who’s studying computer science and taking a course on Linux, or who simply wants to take advantage of your school making Linux available to you
+- You like that Linux is open source, i.e., its code is always open to all, and is continually being improved by a global community
 
-- Part 5: Package Installation and Management
+- You have issues with your personal computer’s current OS and want to explore switching to Linux because:
+  - Linux installs, and updates, quicker and easier than a proprietary OS
+  - Linux is leaner, and typically boots faster and runs faster, than a proprietary OS
+  - Linux provides you with exceptional control, allowing you to custom-tailor the OS to your needs and tastes
+  - Linux has a higher level of privacy, security, and stability than a proprietary OS
+  - Linux has a simple and straightforward user interface
+  - Linux’s command line lets you run customized scripts to automate and streamline your workflow
+  - Linux provides tools to make its operation remarkably transparent,  and the Linux community is consistently transparent about problems, which typically makes troubleshooting issues easier on Linux than on a proprietary system
+  - You have a personal computer that’s no longer supported by the current Windows or Apple OS, but that has no problem running the latest version of Linux
+  - Linux is free
 
-- Part 6: Network services
+- Virtually all the cool nerds know and love Linux
 
-- Part 7: Looking at logs
+Whatever the reason you’re interested in Linux, this book will help you to most effectively use Linux to meet your needs.
 
-- Part 8: Firewalls, firewall maintenance, and security
-
-### Learning Outcomes
-
-By the end of this course, you will:
-
-1. **Understand the fundamentals of Linux,** including its structure and operational concepts.
-2. **Gain proficiency in using the Linux command line,** which is invaluable for troubleshooting and automation.
-3. **Develop basic system administration skills** that can be built upon for more advanced IT roles.
-4. **Be prepared to explore more specialized uses of Linux,** such as network security, software development, and cloud-based applications.
 
 ### Course Materials and Resources
 
